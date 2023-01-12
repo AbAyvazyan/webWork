@@ -1,0 +1,31 @@
+.partners_section{
+    width: 100%;
+    padding: 25px 15vw;
+    box-sizing: border-box;
+    margin: 15vh 0;
+}
+
+.partners_section h2{
+    font-size: 31px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.partners_logo_holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.partners_logo_holder img{
+    width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .partners_logo_holder img{
+        width: 40%;
+    }
+}

@@ -1,0 +1,17 @@
+.block_reuseable_button{
+    width: 210px!important;
+    height: 50px!important;
+    background-color: #8276FF;
+    color: var(--text-color);
+    border-radius: 25px;
+    transition: 500ms;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.block_reuseable_button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

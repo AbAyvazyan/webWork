@@ -1,0 +1,15 @@
+:root{
+  --text-color:#FFFFFF;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E1E;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main{
+  margin:5vh 0;
+}

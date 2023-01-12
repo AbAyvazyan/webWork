@@ -1,0 +1,10 @@
+.awards_section{
+    margin: 15vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.awards_section img{
+    width: 90%;
+}
+
